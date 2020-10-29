@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #AA767C;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: #E8E8E8;
+    width: 500px;
+    height: 800px;
+    border-radius: 20px;
+    box-shadow: 5px 10px 100px #794e53;
+    text-align: center;
+    padding: 5%;
+    margin: 3%;
+    font-family: 'Quicksand', sans-serif;
+}
+h2{
+    margin: 10% 0 5% 0;
+    color: #D66853;
+}
+h3{
+    font-weight: 500;
+    margin: 5%;
+    color: #555;
+}
+h4{
+    font-weight: 600;
+    margin-top: 5%;
+    color: #044B7F;
+}
+.location{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2%;
+    color: #3a405a;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 10%;
+    color: #3a405a;
+}
+p{
+    font-weight: 700;
+    font-size: 32px;
+}
+span{
+    font-weight: 500;
+    font-size: 18px;
+}
+footer{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+.social{
+    width: 280px;
+    height: 56px;
+    display: flex;
+    justify-content: space-around;
+}
+.red{
+    width: 45px;
+    height: 45px;
+    background-color: rgb(107, 107, 107);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.facebook{
+    background-color: #0078D7;
+}
+.twitter{
+    background-color: #1DA1F2;
+}
+.instagram{
+    background-color: #D5135A;
+}
+.github{
+    background-color: #333333;
+}
+button{
+    width: 180px;
+    height: 45px;
+    background-color: #D5135A;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 10%;
+}
+button:hover{
+    border: none;
+    background-color: #770d34;
+    cursor: pointer;
+}
